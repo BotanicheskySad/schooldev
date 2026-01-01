@@ -19,7 +19,7 @@ function App() {
       .catch(err => {
         setError('Ошибка загрузки данных')
         setLoading(false)
-        console.error('Ошибка при загрузке:', err)
+        console.error('Ошибка при загрузке', err)
       })
   }
 
